@@ -1,3 +1,3 @@
-Sorting Algorithms
+Algorithms
 ==================
-A Collection of sorting algorithms implemented in Java
+A Collection of algorithms for various problems implemented in Java
