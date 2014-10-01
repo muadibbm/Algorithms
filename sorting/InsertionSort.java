@@ -1,7 +1,8 @@
+package sorting;
 
 public class InsertionSort 
 {
-	static void INSERTIONSORT (int [] A) {
+	static void INSERTION_SORT (int [] A) {
 		int value;
 		int j;
 		for(int i = 1; i < A.length; i++) {
@@ -22,7 +23,7 @@ public class InsertionSort
 		System.out.print("Unsorted List: ");
 		for(int i=0; i < A.length; i++)
 			System.out.print(A[i]+" ");
-		INSERTIONSORT(A);
+		INSERTION_SORT(A);
 		System.out.print("\nSorted List: ");
 		for(int i=0; i < A.length; i++)
 			System.out.print(A[i]+" ");
